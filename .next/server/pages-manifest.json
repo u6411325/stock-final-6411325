@@ -3,8 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/stockFinal/supplier": "pages/api/stockFinal/supplier.js",
-  "/api/stockFinal/supplier/[id]": "pages/api/stockFinal/supplier/[id].js",
-  "/supplier/update/[id]": "pages/supplier/update/[id].js",
-  "/supplier": "pages/supplier.js"
+  "/supplier/update/[id]": "pages/supplier/update/[id].js"
 }

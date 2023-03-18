@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/supplier": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/supplier.js"
-    ],
     "/supplier/update/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

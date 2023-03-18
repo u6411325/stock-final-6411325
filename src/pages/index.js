@@ -105,7 +105,9 @@ export default function Home({ supplier }) {
   );
 }
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/stockFinal/supplier`);
+  const res = await fetch(
+    `https://stock-final-6411325.vercel.app/api/stockFinal/supplier`
+  );
   const supplier = await res.json();
   // Sort suppliers alphabetically
   supplier.sort((first, second) => first.name.localeCompare(second.name));
