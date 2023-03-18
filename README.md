@@ -1,38 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Supplier Management
 
-First, run the development server:
+This web page Allows you to add/delete/manage suppliers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Screenshot Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This is the home page which is also known as "Supplier Management" page to see all the suppliers with their names alphabetically sorted.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![App Screenshot](https://github.com/u6411325/stock-final-6411325/blob/main/screenshots/home.png?raw=true)
 
-## Learn More
+On the top nav bar, you can access 2 pages, called "Supplier Management" and "Supplier". You can click on Upper left side of the screen to go to home screen or "Supplier Management".
 
-To learn more about Next.js, take a look at the following resources:
+Let's take a look at the "Supplier Management" page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+you can either edit, or delete from this table.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![App Screenshot](https://github.com/u6411325/stock-final-6411325/blob/main/screenshots/table.png?raw=true)
 
-## Deploy on Vercel
+This is where you edit the exististing suppliers in the table. After each edit, it will automatically sort alphabetically. You can click on Cancel to go back to "Supplier Management" Page.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![App Screenshot](https://github.com/u6411325/stock-final-6411325/blob/main/screenshots/update.png?raw=true)
+
+Let's add a supplier.
+
+First we click on + Add Supplier, then we put ABC as supplier name to showcase the sorted table.
+
+![App Screenshot](https://github.com/u6411325/stock-final-6411325/blob/main/screenshots/addABC.png?raw=true)
+
+ABC is now shown at the top of the table.
+
+![App Screenshot](https://github.com/u6411325/stock-final-6411325/blob/main/screenshots/addedABC.png?raw=true)
+## Authors
+
+- [@Aung Cham Myae](https://github.com/u6411325)
+
+
+## Tech Stack
+
+**Client:** React, Bootstrap
+**Server:** MongoDB
+
+
+
