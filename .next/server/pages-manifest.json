@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/supplier/update/[id]": "pages/supplier/update/[id].js"
+  "/supplier": "pages/supplier.js",
+  "/api/stockFinal/supplier": "pages/api/stockFinal/supplier.js",
+  "/": "pages/index.js"
 }
